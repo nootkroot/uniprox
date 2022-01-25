@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+body {
+    background-color: rgb(27, 27, 27);
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5em;
+}
+
+html {
+    padding: 1.5em;
+}
+
+header {
+    text-align: center;
+}
+
+a {
+    color:rgb(41, 137, 226);
+}
+
+h1 > a {
+    font-size: 0.75em;
+}
+
+.info {
+    max-width: 36em;
+    margin: auto;
+}
+
+input {
+    width: 18em;
+    font-size: 1em;
+    height: 1.75em;
+    border-radius: 15px;
+    border: 0;
+    margin: 0.25em;
+    background-color: rgb(56, 56, 56);
+    text-align: center;
+    color: whitesmoke;
+}
+
+button {
+    border-radius: 5px;
+    border: 0;
+    width: 3em;
+    font-size: 1em;
+    margin: 0.25em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: gray;
+}
+
+.review {
+    margin: 1.5em;
+}
+
+.fa-star {
+    float: right;
+    font-size: 1.5em;
+    color: rgb(102, 102, 102);
+}
+
+.review #picture {
+    float: left;
+    width: 8em;
+    height: auto;
+}
+
+.review p {
+    text-align: right;
+    vertical-align: bottom;
+}
+
+.checked {
+    color: orange;
+}
+
+.review #text {
+    width: 50%;
+    float: right;
+}
