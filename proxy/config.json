@@ -1,7 +1,0 @@
-{
-    "port": "6969",
-    "ssl": false,
-    "prefix": "/rickroll/",
-    "localAddresses": [],
-    "blockedHostnames": []
-}
